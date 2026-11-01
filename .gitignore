@@ -1,0 +1,22 @@
+# Materiale locale e privato
+.local/
+output/
+packages/
+downloads/
+state/
+verification/
+node_modules/
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key
+*.dpapi
+*.tpk
+*.wgt
+*.db
+*.db-journal
+*.sqlite*
+*.log
+config.local.js
