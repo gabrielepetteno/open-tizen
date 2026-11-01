@@ -1,6 +1,6 @@
 # Canali italiani e Guida TV in Nuvio su Tizen
 
-[Indice](../README.md) · [Problemi e soluzioni](risoluzione-problemi.md)
+[Indice](../README.md) · [Problemi e soluzioni](risoluzione-problemi.md) · [Configurazione iniziale](prima-installazione-tv.md) · [Link ufficiali dei servizi](link-ufficiali.md)
 
 ## Lista della configurazione finale
 

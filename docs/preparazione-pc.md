@@ -1,6 +1,6 @@
 # Preparare Windows e collegare Samsung Tizen in Developer Mode
 
-[Indice](../README.md) · [Passo successivo: firma](firma-installazione.md)
+[Indice](../README.md) · [Prima installazione della TV](prima-installazione-tv.md) · [Passo successivo: firma](firma-installazione.md)
 
 TV e PC devono potersi raggiungere nella rete locale. Annota privatamente IP della TV, IP del PC, modello, Tizen e firmware. Usa l'IP della scheda realmente collegata; rete ospiti e VPN possono impedire la comunicazione.
 
@@ -19,7 +19,7 @@ Scarica da Samsung o dai rispettivi progetti; verifica hash quando pubblicati e 
 
 ## Developer Mode sulla TV
 
-1. Apri Apps.
+1. Apri Apps e, se presente, il pannello App Settings / Impostazioni app.
 2. Inserisci dal telecomando 1, 2, 3, 4, 5 per il pannello sviluppatore, se previsto dal modello.
 3. Abilita Developer Mode e inserisci l'IP del PC, non della TV.
 4. Riavvia come richiesto e verifica che la modalità sia attiva.

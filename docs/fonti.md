@@ -1,6 +1,6 @@
 # Fonti primarie e progetti citati
 
-[Indice](../README.md)
+[Indice](../README.md) · [Catalogo completo di app, download e servizi ufficiali](link-ufficiali.md)
 
 Consultazione iniziale: 1 novembre 2026. I riferimenti a tag e commit fissano il contesto; servizi e pagine di release possono cambiare.
 

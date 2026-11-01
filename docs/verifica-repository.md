@@ -22,3 +22,7 @@ Prima della pubblicazione serve la revisione dei file esatti destinati al commit
 ## Controlli prima della pubblicazione autorizzata
 
 Ripetuti i 19 test: tutti superati. Controlli sintattici Node e parser PowerShell superati. Semgrep con regole p/javascript e metriche disattivate: 68 regole, 4 file JavaScript di sorgente/configurazione analizzati, zero risultati; le fixture di test sono escluse dai filtri predefiniti. Il controllo dei 34 file destinati alla pubblicazione non ha rilevato link locali mancanti o le classi di dati privati cercate. Nessun pacchetto firmato, certificato o backup è incluso. Lo stato senza remote/commit riportato sopra riguarda la preparazione iniziale.
+
+## Integrazione del 2 novembre 2026
+
+Dopo la rinomina del titolare in Open Tizen: aggiunte configurazione iniziale TV, cronologia del percorso reale, catalogo di link ufficiali e verifica di reperibilità. README e navigazione aggiornati. Nessun codice del launcher cambiato. Controllati 39 file, 27 Markdown: nessun link locale mancante, nessun riscontro per i dati privati cercati o parametri affiliati. I 19 test esistenti sono stati rieseguiti con zero fallimenti; git diff --check superato. Non sono state usate sessioni browser personali o Search Console. L'indicizzazione Google resta non accertata, come spiegato nella pagina dedicata.

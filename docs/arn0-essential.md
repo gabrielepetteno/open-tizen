@@ -1,6 +1,6 @@
 # Arn0 Essential: home leggera con app e ingressi HDMI
 
-[Indice](../README.md) · [Esempio riproducibile](../examples/arn0-essential/README.md)
+[Indice](../README.md) · [Esempio riproducibile](../examples/arn0-essential/README.md) · [Configurazione iniziale](prima-installazione-tv.md) · [Link ufficiali dei servizi](link-ufficiali.md)
 
 La variante locale mostra app e HDMI configurati prima di interrogare API native. Usa font di sistema, sfondo piatto, un bundle JavaScript e niente animazione di messa a fuoco; i loghi sono facoltativi e successivi ai primi fotogrammi.
 

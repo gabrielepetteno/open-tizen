@@ -1,6 +1,6 @@
 # OmegaTube su Samsung Tizen, accanto a YouTube originale
 
-[Indice](../README.md) · [Firma](firma-installazione.md)
+[Indice](../README.md) · [Firma](firma-installazione.md) · [Configurazione iniziale](prima-installazione-tv.md) · [Link ufficiali dei servizi](link-ufficiali.md)
 
 [OmegaTube](https://github.com/IIyn/omegatube) è distinto da YouTube ufficiale. Nel percorso è stata installata la release 1.3.4, conservando l'app originale.
 

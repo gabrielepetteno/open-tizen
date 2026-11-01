@@ -1,13 +1,23 @@
-# Samsung Tizen Guide — Nuvio, canali italiani e home personalizzata
+# Open Tizen — guida Samsung Tizen, Nuvio e canali TV italiani
 
-Guida pratica in italiano per installare applicazioni su Samsung Tizen, configurare Nuvio per film, serie e TV in diretta e usare una home essenziale con app e HDMI.
+Guida in italiano per Samsung Smart TV con **Tizen 6**: configurazione iniziale, **Developer Mode**, collegamento al PC, certificati, installazione di **Nuvio**, film e serie, **canali TV italiani** e home personalizzata con app e HDMI. Il percorso di riferimento è una **Samsung AU7170**.
 
 **Basata su prove reali del 1 novembre 2026 su Samsung AU7170, Tizen 6.0.** Una prova su questo modello non certifica tutte le TV Tizen. Progetto indipendente, non affiliato a Samsung o agli sviluppatori delle applicazioni.
+
+## Prima installazione: parti dalla TV
+
+Se la TV non è ancora pronta, apri **[Configurazione iniziale Samsung Tizen, Developer Mode e prima installazione](docs/prima-installazione-tv.md)**. La guida spiega dove inserire 12345, quale IP autorizzare, quando riavviare, come verificare SDB, quali certificati servono e come arrivare alla prima riproduzione.
+
+Vuoi seguire esattamente il lavoro fatto sulla TV di riferimento? Leggi **[il percorso reale, in ordine, con risultati e tentativi non riusciti](docs/percorso-verificato.md)**.
+
+**[Tutti i link ufficiali: app, download, configuratori e servizi](docs/link-ufficiali.md)** · **[Verifica di reperibilità e indicizzazione](docs/indicizzazione-google.md)**
 
 ## Inizia da qui
 
 | Obiettivo | Guida |
 | --- | --- |
+| Preparare da zero la TV | [Configurazione iniziale e impostazioni](docs/prima-installazione-tv.md) |
+| Ritrovare tutti i progetti e servizi | [Link ufficiali](docs/link-ufficiali.md) |
 | Verificare modello e sistema | [Compatibilità](docs/compatibilita.md) |
 | Collegare Windows alla TV | [PC e Developer Mode](docs/preparazione-pc.md) |
 | Firmare e installare WGT/TPK | [Firma e installazione](docs/firma-installazione.md) |
@@ -48,6 +58,12 @@ Nuvio è un client: una locandina non è una sorgente video e non concede access
 
 ## Domande frequenti
 
+**Come si attiva Developer Mode su Samsung Tizen?** Dal pannello Apps/App Settings inserisci 12345, abilita Developer Mode, indica l’IP del PC e riavvia. [Procedura completa](docs/prima-installazione-tv.md).
+
+**Nuvio su Samsung richiede Android o un APK?** No: nella prova è un TPK nativo per Tizen 6. [Pacchetti e firma](docs/firma-installazione.md).
+
+**Perché Italia 1 si vede senza audio?** Nel caso provato Nuvio 2.0.8 inoltrava il video tramite proxy TS senza la traccia separata. [Soluzione verificata](docs/risoluzione-problemi.md#italia-1-mostra-il-video-ma-non-ha-audio).
+
 **Funziona su tutte le Samsung?** No: consulta la [matrice di compatibilità](docs/compatibilita.md).
 
 **Vedo il titolo ma non le sorgenti.** Cataloghi e sorgenti hanno compiti diversi: leggi [Nuvio](docs/nuvio.md).
@@ -57,6 +73,10 @@ Nuvio è un client: una locandina non è una sorgente video e non concede access
 **Posso eliminare ogni app preinstallata?** Alcune hanno Elimina disabilitato; non è stato verificato un debloat totale.
 
 **Arn0 parte all'accensione?** È verificato il tasto Home, non l'avvio automatico.
+
+## English overview
+
+Open Tizen is an Italian Samsung Tizen 6 installation and troubleshooting guide, tested on AU7170: Developer Mode, certificates, Nuvio Native Legacy, Italian live TV channels, Arn0 Essential and OmegaTube. It documents tested results and model-specific limits; it does not provide subscriptions or private configuration links.
 
 ## Contribuire e aggiornare
 

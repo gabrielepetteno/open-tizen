@@ -1,6 +1,6 @@
 # Nuvio su Samsung Tizen: film, serie e configurazione italiana
 
-[Indice](../README.md) · [Firma](firma-installazione.md) · [Canali italiani](canali-italiani.md)
+[Indice](../README.md) · [Firma](firma-installazione.md) · [Canali italiani](canali-italiani.md) · [Configurazione iniziale](prima-installazione-tv.md) · [Link ufficiali dei servizi](link-ufficiali.md)
 
 La prova riguarda il fork **Nuvio Native Legacy 2.0.8**, variante **NuvioTpk60**. Non confondere fork, Web client e altri progetti omonimi. Scarica dalla [release](https://github.com/iqui27/nuvio-native-legacy/releases/tag/v2.0.8) secondo la [compatibilità](compatibilita.md).
 
@@ -17,7 +17,7 @@ Dopo installazione, apri Nuvio. Nella prova compare QR/codice di accesso: comple
 
 ## Configurazione del profilo
 
-1. Apri il pannello account su `nuvio.tv`, sullo stesso profilo della TV.
+1. Apri il [pannello account Nuvio](https://nuvio.tv/account), sullo stesso profilo della TV.
 2. In Addons usa Add Addon, URL del configuratore, nome riconoscibile e Enabled.
 3. Salva, ricarica e riapri Edit per controllare lo stato. Non condividere URL personali.
 4. Sulla TV usa Impostazioni → Add-on → Sincronizza.
@@ -27,8 +27,8 @@ Nel client provato il menu locale sincronizza le impostazioni dell'account; non 
 Configurazione effettuata nel percorso:
 
 - **AIOMetadata italiano:** film e serie, sei cataloghi TMDB: Popular, Trending e Top Rated per ciascun tipo; fuso Europe/Rome. [Istanza usata](https://aiometadata.elfhosted.com/). La password di configurazione è scelta dall'utente; il manifest generato è personale.
-- **OpenSubtitles v3:** conservato.
-- **StreamViX** e **Torrentio:** sorgenti, con priorità italiana dove disponibile. I riferimenti sono nelle [fonti](fonti.md). Verifica provenienza e autorizzazione delle risorse; la priorità non garantisce la traccia italiana.
+- **OpenSubtitles v3:** conservato; [servizio ufficiale](https://www.opensubtitles.org/).
+- **[StreamViX](https://github.com/qwertyuiop8899/StreamViX)** e **[Torrentio](https://torrentio.strem.fun/configure):** sorgenti, con priorità italiana dove disponibile. I riferimenti sono nelle [fonti](fonti.md). Verifica provenienza e autorizzazione delle risorse; la priorità non garantisce la traccia italiana.
 - Il vecchio catalogo Nuvio è conservato ma disattivato per ridurre duplicati. Non è necessario eliminarlo.
 
 Nelle TV Settings del profilo sono state impostate lingua audio e sottotitoli `it`. Salva e rileggi dopo ricaricamento. Una preferenza non crea una traccia che il file non contiene.
